@@ -1,0 +1,41 @@
+@font-face {
+    font-family: 'ROKAFSansBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts2201-3@1.0/ROKAFSansBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+*{font-family: 'ROKAFSansBold';}
+
+body{
+    font-family: 'ROKAFSansBold';
+}
+h1{
+    font-size: 45px;
+    color: rgb(15, 15, 21);
+}
+h2{
+    font-size: 45px;
+    color:rgb(26, 28, 28);
+}
+
+table {
+    margin-left:auto; 
+    margin-right:auto;
+}
+
+table, td, th {
+    border-collapse : collapse;
+    border : 1px solid black;
+};
+
+.main_1{
+margin: 10px; padding: 20px;
+}
+
+#aing{
+    margin-top: 400px;
+    height: 30000px;;
+font-family: 'ROKAFSansBold';
+text-align: center;
+font-size: 800px;
+}

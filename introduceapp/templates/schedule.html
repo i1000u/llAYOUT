@@ -1,0 +1,227 @@
+{% extends 'index.html' %}
+{% load static %}
+<!DOCTYPE html>
+{% block head %}
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="시간표.css">
+    <title>개오지는 나의 자기소개 index 페이지</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+</head>
+
+{% endblock %}
+<body style="background-color:aliceblue">
+
+    <!-- 첫 번째 부트스트랩이 사용했다.-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="../index">전천우</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../introduce">자기소개</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../schedule">시간표</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../assingment">실습과제</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="flex-container">
+        <div class="flex-item" style="background-color: azure" F</div>
+            <div class="flex-item" style="background-color: azure" F</div>
+                <div class="flex-item" style="background-color: azure" F</div>
+                    <!-- 시간표-->
+                    <style>
+                        table {
+                            margin-top: 40px;
+                            width: 50%;
+                            border: 1px solid #444444;
+                            background-color: white;
+                        }
+
+                        th,
+                        td {
+                            border: 1px solid #444444;
+                            width: 50px;
+                        }
+                    </style>
+                    <table border="5">
+                        <tbody>
+                            <tr>
+                                <td>요일</td>
+                                <td> 월 </td>
+                                <td> 화 </td>
+                                <td> 수 </td>
+                                <td> 목 </td>
+                                <td> 금 </td>
+
+
+                            </tr>
+                            <tr>
+                                <td> 09:00~09:30 </td>
+                                <td rowspan="6" ,="" bgcolor="pink">
+                                    여성 생명 평화
+                                </td>
+                                <td> </td>
+                                <td> </td>
+                                <td> </td>
+                                <td> </td>
+
+
+
+                            </tr>
+                            <tr>
+                                <td> 09:30~10:00 </td>
+                                <td> </td>
+                                <td> </td>
+                                <td> </td>
+                                <td> </td>
+
+
+                            </tr>
+                            <tr>
+                                <td> 10:00~10:30 </td>
+                                <td> </td>
+                                <td> </td>
+                                <td rowspan="2" ,="" bgcolor="sky-blue"> 비아메디아 채플</td>
+                                <td rowspan="4" ,="" bgcolor="purple">데이터 활용 및 분석 </td>
+
+                            </tr>
+                            <tr>
+                                <td> 10:30~11:00 </td>
+                                <td> </td>
+                                <td> </td>
+
+                            </tr>
+                            <tr>
+                                <td> 11:00~11:30 </td>
+                                <td> </td>
+                                <td rowspan="4" ,="" bgcolor="geen">말과글 </td>
+                                <td> </td>
+
+
+                            </tr>
+                            <tr>
+                                <td> 11:30~12:00 </td>
+                                <td> </td>
+                                <td> </td>
+
+                            </tr>
+                            <tr>
+                                <td> 12:00~12:30 </td>
+                                <td> </td>
+                                <td> </td>
+                                <td> </td>
+                                <td> </td>
+
+                            </tr>
+                            <tr>
+                                <td> 12:30~13:00 </td>
+                                <td> </td>
+                                <td> </td>
+                                <td> </td>
+                                <td> </td>
+
+                            </tr>
+                            <tr>
+                                <td> 13:30~14:00 </td>
+                                <td> </td>
+                                <td rowspan="3" ,="" bgcolor="yellow">c프로그래밍 </td>
+                                <td> </td>
+                                <td rowspan="3" ,="" bgcolor="yellow"> c프로그래밍 </td>
+                                <td rowspan="4" ,="" bgcolor="emerald"> 대학생활세미나1 </td>
+
+                            </tr>
+                            <tr>
+                                <td> 14:00~14:30 </td>
+                                <td> </td>
+                                <td> </td>
+
+                            </tr>
+                            <tr>
+                                <td> 14:30~15:00 </td>
+                                <td> </td>
+                                <td> </td>
+
+                            </tr>
+                            <tr>
+                                <td> 15:00~15:30 </td>
+                                <td> </td>
+                                <td> </td>
+                                <td rowspan="6" ,="" bgcolor="orange">Topics In Flim </td>
+                                <td rowspan="6" ,="" bgcolor="light-blue"> 한국사회와 노동문제 </td>
+
+                            </tr>
+                            <tr>
+                                <td> 15:30~16:00 </td>
+                                <td> </td>
+                                <td> </td>
+                                <td> </td>
+
+                            </tr>
+                            <tr>
+                                <td> 16:00~16:30 </td>
+                                <td> </td>
+                                <td> </td>
+                                <td> </td>
+
+                            </tr>
+                            <tr>
+                                <td> 16:30~17:00 </td>
+                                <td> </td>
+                                <td> </td>
+                                <td> </td>
+
+
+                            </tr>
+                            <tr>
+                                <td> 17:00~17:30 </td>
+                                <td> </td>
+                                <td> </td>
+                                <td> </td>
+
+                            </tr>
+                            <tr>
+                                <td> 17:30~18:00 </td>
+                                <td> </td>
+                                <td> </td>
+                                <td> </td>
+
+                            </tr>
+                        </tbody>
+                    </table>
+                    <div>
+                        <h1>어쩔티비ㅋㅋㅋㅋㅋ</h1>
+                    </div>
+
+                </div>
+
+                {% block content %}
+
+                {% endblock %}
+              
+                <footer>
+                    {% block footer %}
+                       
+                    {% endblock %}
+                </footer>
+                <script href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+                </script>
+</body>
+
+</html>
